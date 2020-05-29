@@ -18,11 +18,8 @@
 
 #### 下载
 搜索`Fedora 30 for x86_64`内置的依赖版本
-
 [http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz)
-
 [http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu)
-
 [http://rpmfind.net/linux/rpm2html/search.php?query=pango](http://rpmfind.net/linux/rpm2html/search.php?query=pango)
 
 下载`Fedora 30 for x86_64`内置的依赖版本
@@ -67,3 +64,5 @@
 1 directory, 18 files
 
 ```
+
+- `lib`里的文件我已经整理好上传到`github`上，[点击下载](https://github.com/jayknoxqu/electronic-wechat-old-lib/archive/master.zip)解压到安装目录即可
