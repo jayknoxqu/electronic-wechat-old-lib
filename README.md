@@ -10,17 +10,17 @@
 ```
 
 ## 问题根源
-**`Harfbuzz version too old (1.0.6)`**
+**`Harfbuzz version too old (1.0.6)`**  
 系统升级后，微信依赖的库，低于系统内置的库，导致微信启动失败。
 
 
 ## 解决问题
 
 #### 下载
-搜索`Fedora 30 for x86_64`内置的依赖版本
-[http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz)
-[http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu)
-[http://rpmfind.net/linux/rpm2html/search.php?query=pango](http://rpmfind.net/linux/rpm2html/search.php?query=pango)
+搜索`Fedora 30 for x86_64`内置的依赖版本  
+[http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz)  
+[http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu)  
+[http://rpmfind.net/linux/rpm2html/search.php?query=pango](http://rpmfind.net/linux/rpm2html/search.php?query=pango)  
 
 下载`Fedora 30 for x86_64`内置的依赖版本
 ```
