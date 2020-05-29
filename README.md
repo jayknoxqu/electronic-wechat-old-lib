@@ -18,8 +18,11 @@
 
 #### 下载
 搜索`Fedora 30 for x86_64`内置的依赖版本
+
 [http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz)
+
 [http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu)
+
 [http://rpmfind.net/linux/rpm2html/search.php?query=pango](http://rpmfind.net/linux/rpm2html/search.php?query=pango)
 
 下载`Fedora 30 for x86_64`内置的依赖版本
