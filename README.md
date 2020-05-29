@@ -1,6 +1,7 @@
-# 解决Liunx下微信electronic-wechat启动报错 Harfbuzz version too old (1.0.6)
+# 解决Liunx下微信electronic-wechat启动报错 Harfbuzz version too old (1.0.6)  
+
 ## 问题描述
-在`Fedora 30`下运行正常，但升级到`Fedora 32` 后微信启时报错，错误信息如下:
+[electronic-wechat](https://github.com/geeeeeeeeek/electronic-wechat/releases)在`Fedora 30`下运行正常，但升级到`Fedora 32` 后微信启时报错，错误信息如下:
 ```
 [root@localhost ~]# ./electronic-wechat
 
@@ -11,12 +12,10 @@
 
 ## 问题根源
 **`Harfbuzz version too old (1.0.6)`**  
-系统升级后，微信依赖的库，低于系统内置的库，导致微信启动失败。
+系统升级后，微信依赖的库，低于系统内置的库，导致微信启动失败。  
 
 
 ## 解决问题
-
-#### 下载
 搜索`Fedora 30 for x86_64`内置的依赖版本  
 [http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz)  
 [http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu](http://rpmfind.net/linux/rpm2html/search.php?query=harfbuzz-icu)  
